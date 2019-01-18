@@ -8,62 +8,74 @@
     <title>Celebrity Dating Quiz</title>
   </head>
   <body>
-    <h1>Celebrity Dating Quiz</h1>
     <div class="container">
-      <form id="datingQuiz">
-        <label for="color">What's Your Favorite Color?</label>
-        <select class="form-control" id="color">
-          <option value="1">Red</option>
-          <option value="3">Blue</option>
-          <option value="5">Green</option>
-          <option value="7">Yellow</option>
-          <option value="9">Pink</option>
-        </select>
+      <div class="panel panel-info">
+        <div class="panel-body">
+          <h1>Celebrity Dating Quiz</h1>
+          <br>
+          <form id="datingQuiz">
+            <label for="color">What's Your Favorite Color?</label>
+            <select class="form-control" id="color">
+              <option value="1">Red</option>
+              <option value="3">Blue</option>
+              <option value="5">Green</option>
+              <option value="7">Yellow</option>
+              <option value="9">Pink</option>
+            </select>
+            <br>
+            <label for="movie">What's Your Favorite Movie Genre?</label>
+            <select class="form-control" id="movie">
+              <option value="1">Comedy</option>
+              <option value="3">Drama</option>
+              <option value="5">Action</option>
+              <option value="7">Horror</option>
+              <option value="9">Rom-Com</option>
+            </select>
+            <br>
+            <label for="music">Which of these artists would you want to see live the most?</label>
+            <select class="form-control" id="music">
+              <option value="1">Beyoncé</option>
+              <option value="3">Coldplay</option>
+              <option value="5">Kendrick Lamar</option>
+              <option value="7">Lady Gaga</option>
+              <option value="9">Daft Punk</option>
+            </select>
+            <br>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
 
-        <label for="movie">What's Your Favorite Movie Genre?</label>
-        <select class="form-control" id="movie">
-          <option value="1">Comedy</option>
-          <option value="3">Drama</option>
-          <option value="5">Action</option>
-          <option value="7">Horror</option>
-          <option value="9">Rom-Com</option>
-        </select>
+          <br>
+          <div class="results">
+            <div class="noah">
+              <p><span class="answer">Your celebrity match is Noah Centineo!</span></p>
+              <img src="img/noah.jpg" alt="A picture of Noah Centineo" width="400px">
+            </div>
 
-        <label for="music">Which of these singers do you want to see live the most?</label>
-        <select class="form-control" id="music">
-          <option value="1">Beyonce</option>
-          <option value="3">Coldplay</option>
-          <option value="5">Kendrick Lamar</option>
-          <option value="7">Lady Gaga</option>
-          <option value="9">Daft Punk</option>
-        </select>
+            <div class="emma">
+              <p><span class="answer">Your celebrity match is Emma Stone!</span></p>
+              <img src="img/emma.jpg" alt="A picture of Emma Stone" width="400px">
+            </div>
 
-        <button type="submit" class="btn btn-info">Submit</button>
-      </form>
-      <div class="results">
-        <div class="noah">
-          <img src="img/noah.jpg" alt="A picture of Noah Centineo">
-          <p>Your celebrity match is Noah Centineo!</p>
-        </div>
-        <div class="emma">
-          <img src="img/emma.jpg" alt="A picture of Emma Stone">
-          <p>Your celebrity match is Emma Stone!</p>
-        </div>
-        <div class="michael">
-          <img src="img/michael.jpg" alt="A picture of Michael B. Jordan">
-          <p>Your celebrity match is Michael B. Jordan!</p>
-        </div>
-        <div class="rihanna">
-          <img src="img/rihanna.jpg" alt="A picture of Rihanna">
-          <p>Your celebrity match is Rihanna!</p>
-        </div>
-        <div class="timmy">
-          <img src="img/timmy.jpg" alt="A picture of Timothee Chalamet">
-          <p>Your celebrity match is Timothee Chalamet!</p>
-        </div>
-        <div class="ariana">
-          <img src="img/ariana.jpg" alt="A picture of Ariana Grande">
-          <p>Your celebrity match is Ariana Grande!</p>
+            <div class="michael">
+              <p><span class="answer">Your celebrity match is Michael B. Jordan!</span></p>
+              <img src="img/michael.jpg" alt="A picture of Michael B. Jordan" width="400px">
+            </div>
+
+            <div class="rihanna">
+              <p><span class="answer">Your celebrity match is Rihanna!</span></p>
+              <img src="img/rihanna.jpg" alt="A picture of Rihanna" width="400px">
+            </div>
+
+            <div class="timmy">
+              <p><span class="answer">Your celebrity match is Timothée Chalamet!</span></p>
+              <img src="img/timmy.jpg" alt="A picture of Timothee Chalamet" width="400px">
+            </div>
+
+            <div class="ariana">
+              <p><span class="answer">Your celebrity match is Ariana Grande!</span></p>
+              <img src="img/ariana.jpg" alt="A picture of Ariana Grande" width="400px">
+            </div>
+          </div>
         </div>
       </div>
     </div>

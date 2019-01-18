@@ -1,3 +1,28 @@
 .noah, .emma, .michael, .rihanna, .timmy, .ariana{
   display: none;
 }
+body {
+  text-align: center;
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rxUwkunoisrp126r/abstract-red-hearts-background_hkcji7r4x_thumbnail-full01.png);
+}
+h1 {
+  font-size: 75px;
+  font-family: cursive;
+}
+label {
+  font-size: 40px;
+  font-family: cursive;
+}
+.answer {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+}
+img {
+  border: 5px solid black;
+}
+.form-control {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: cursive;
+}
